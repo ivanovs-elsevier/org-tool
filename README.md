@@ -2,6 +2,8 @@
 
 ## Instructions to run
 
+`npm install` install dependencies
+
 `npm run api:run` to run the API mockup
 
 ## Exercise
