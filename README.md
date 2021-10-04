@@ -28,4 +28,4 @@
 - The exercise will be analyzed holistically. That means that not only the functionality, but non-functional requirements will also be assessed.
 
 ## Notes
-- ...
+- [Edit this section if you want add any notes]
