@@ -1,11 +1,5 @@
 # OrgTool exercise
 
-## Instructions to run
-
-`npm install` install dependencies
-
-`npm run api:run` to run the API mockup
-
 ## Exercise
 
 - Implement the user interface pictured on screenshots below screenshots below (don't worry about styles too much):
@@ -21,6 +15,8 @@
   ![empty state](./screenshots/EmptyState.png)
 
   _Note: The orange color found on the prototype is `#f36d21`. The gray color is `#eee`_
+  
+- Fetch the data from /api/db.json using an HTTP call made by your application. Note the nested structure of the json object.
 - You can use any JavaScript framework, library or tool you find necessary
 - Technical requirement: Each employee list item should be a recursive `Employee` component.
 - Cover the code you added with unit tests
@@ -28,6 +24,12 @@
 - Please document your assumptions about the API, information architecture, or the project itself, if any.
 - Feel free to configure any tooling you deem important. Please update the `Instructions to run` section above in case anything gets added/changed.
 - The exercise will be analyzed holistically. That means that not only the functionality, but non-functional requirements will also be assessed.
+
+## Instructions to run the mock API server
+
+`npm install` install dependencies
+
+`npm run api:run` to run the API mockup serving db.json
 
 ## Notes
 - [Edit this section if you want add any notes]
