@@ -19,7 +19,6 @@
 - Fetch the data from /api/db.json using an HTTP call made by your application. Note the nested structure of the json object.
 - You can use any JavaScript framework, library or tool you find necessary
 - Technical requirement: Each employee list item should be a recursive `Employee` component.
-- Cover the code you added with unit tests
 - Configure/implement/run/analyze _anything_ else you consider important! Explain why you decided to do that.
 - Please document your assumptions about the API, information architecture, or the project itself, if any.
 - Feel free to configure any tooling you deem important. Please update the `Instructions to run` section above in case anything gets added/changed.
