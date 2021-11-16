@@ -2,7 +2,7 @@
 
 ## Exercise
 
-- Implement the user interface pictured on screenshots below screenshots below (don't worry about styles too much):
+- Implement the user interface similar to the one pictured on screenshots below (don't worry about styles too much):
 
   1. Basic UI with 3 sections. Header, search bar and results.
   The list of employees must be retrieved from the [API mockup](http://localhost:4000/employees).
