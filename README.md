@@ -4,20 +4,18 @@
 
 - Implement the user interface similar to the one pictured on screenshots below (don't worry about styles too much):
 
-  1. Basic UI with 3 sections. Header, search bar and results.
+  Basic UI with 3 sections. Header, search bar and results.
   The list of employees must be retrieved from the [API mockup](http://localhost:4000/employees).
   ![initial state](./screenshots/InitialState.png)
   
-  2. Implement a basic case-insensitive filter for employees in any point of the hypothetical organization hierarchy. E.g.: `on doe ii` must match `John Doe II` and `John Doe III`.
+  Implement a basic case-insensitive filter for employees in any point of the hypothetical organization hierarchy. E.g.: `on doe ii` must match `John Doe II` and `John Doe III`.
   ![deep node found](./screenshots/DeepNodeFound.png)
   
-  3. Display message stating that no match could be found.
+  Display message stating that no match could be found.
   ![empty state](./screenshots/EmptyState.png)
-
-  _Note: The orange color found on the prototype is `#f36d21`. The gray color is `#eee`_
   
 - Fetch the data from /api/db.json using an HTTP call made by your application. Note the nested structure of the json object.
-- You can use any JavaScript framework, library or tool you find necessary
+- You can use any JavaScript framework, library or tool you find necessary.
 - Technical requirement: Each employee list item should be a recursive `Employee` component.
 - Configure/implement/run/analyze _anything_ else you consider important! Explain why you decided to do that.
 - Please document your assumptions about the API, information architecture, or the project itself, if any.
