@@ -5,7 +5,7 @@
 - Implement the user interface similar to the one pictured on screenshots below (don't worry about styles too much):
 
   Basic UI with 3 sections. Header, search bar and results.
-  The list of employees must be retrieved from the [API mockup](http://localhost:4000/employees).
+  The list of employees must be retrieved from the [API mockup](https://github.com/ivanovs-elsevier/org-tool/blob/master/api/db.json).
   ![initial state](./screenshots/InitialState.png)
   
   Implement a basic case-insensitive filter for employees in any point of the hypothetical organization hierarchy. E.g.: `on doe ii` must match `John Doe II` and `John Doe III`.
@@ -26,7 +26,7 @@
 
 `npm install` install dependencies
 
-`npm run api:run` to run the API mockup serving db.json
+`npm run api:run` to run the API mockup serving db.json on http://localhost:4000/employees
 
 ## Notes
 - [Edit this section if you want add any notes]
